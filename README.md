@@ -16,12 +16,30 @@ Markdown 至少平时上班写文档在用，虽然不用什么高级的功能�
 
 ## [VIM 相关的东西] (vim/README.md)
 * vim 设定：[vimrc 跟 Plugin](vim/docs/VIMRC.md)
+* vim 使用介绍
 
 ## [Linux 相关的东西] (linux/README.md)
+* kvm
+* linux 不常用指令
+* docker
 
 ## [Python 相关的东西] (python/README.md)
+* tcp epoll
+* udp epoll
+* python and c
+* unittest
+* nosetest
+* queue
+* regex
+* threading
+* multi-processing
+* cython
+* pypy
 
 ## [Diagram 相关的东西] (diagram/README.md)
+* design diagram
+* sequence diagram
+* freemind 
 
 ## [关于猫哥] (docs/aboutMe.md)
 
