@@ -6,15 +6,16 @@
 方便我随手写点东西，可以在本本写东西，开心的时候就push上去。有版本控制，不会轻易被封号。workflow也比较熟悉
 
 ### Markdown
-猫哥一向非常的不擅长写HTML的东西。基本HTML对我来说，基本也就只用下面两个
+猫哥一向非常的不擅长写HTML。HTML对我来说，基本就只用下面两个
 
 	<image src="picture.jpg">
 	<pre></pre>
 
-Markdown 平时上班写文档也在用，虽然不用什么高级的功能，不过觉得[vim](vim/README.md)下使用也算方便。[MacDown] (http://macdown.uranusjr.com/) 可以直接出效果。随手写点东西，足够了。
+Markdown 至少平时上班写文档在用，虽然不用什么高级的功能，不过觉得[vim](vim/README.md)下使用也算方便。[MacDown] (http://macdown.uranusjr.com/) 可以直接出效果。随手写点东西，足够了。
 
 
 ## [VIM 相关的东西] (vim/README.md)
+* vim 设定：[vimrc 跟 Plugin](VIMRC.md)
 
 ## [Linux 相关的东西] (linux/README.md)
 
