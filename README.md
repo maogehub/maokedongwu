@@ -23,10 +23,10 @@ Markdown 至少平时上班写文档在用，虽然不用什么高级的功能�
 * docker
 
 ## [Python 相关的东西] (python/README.md)
-* [如何用python的import](python/docs/IMPORT.md) 
+* [如何用 python 的 import](python/docs/IMPORT.md) 
 * [如何用 select.epoll](python/docs/EPOLL.md) 
-* [python调用 c 语言库](python/docs/PYTHON_C.md)
-* unittest
+* [python 调用 c 语言库](python/docs/PYTHON_C.md)
+* [unittest 简介](python/docs/UNITTEST.md)
 * nosetest
 * queue
 * regex
