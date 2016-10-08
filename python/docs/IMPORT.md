@@ -4,14 +4,14 @@
 
 这里简单介绍一下python的import
 
-这里的代码，都在 [import](import) 目录下
+这里的代码，都在 [import](../src/import) 目录下
 
 ## 同目录下的 import
 同目录下的 import 应该很好理解
 
 在一个目录下，有一个文件 a.py 里面定义了function或者class。然后在一个叫做b.py的文件中，去调用a.py中的东西
 
-[a.py] (import/a.py)
+[a.py] (../src/import/a.py)
 
 ~~~python
 def hello():
@@ -22,7 +22,7 @@ class Hello(object):
         print "hello class"
 ~~~
 
-同目录内的 [b.py] (import/b.py)
+同目录内的 [b.py] (../src/import/b.py)
 
 ~~~python
 import a
@@ -46,7 +46,7 @@ b.hello()
 ```
 我们这里c.py希望去调用xyz目录下的a.py
 
-[xyz/a.py](xyz/a.py)
+[xyz/a.py](../src/import/xyz/a.py)
 
 ~~~python
 def hello():
@@ -57,7 +57,7 @@ class Hello(object):
         print "hello class in xyz"
 ~~~
 
-[c.py](c.py)
+[c.py](../src/import/c.py)
 
 ~~~python
 from xyz import a
@@ -84,7 +84,7 @@ b.hello()
 
 做法1，直接用 **“../”** 这样的路径，放在sys的path中
 
-[xyz/b.py](xyz/b.py)
+[xyz/b.py](../src/import/xyz/b.py)
 
 ~~~python
 import sys
@@ -97,7 +97,7 @@ b.hello()
 
 做法2，找到正确的路径
 
-[xyz/c.py](xyz/c.py)
+[xyz/c.py](../src/import/xyz/c.py)
 
 ~~~python
 import os
@@ -131,7 +131,7 @@ b.hello()
 
 在目录zzz中的b.py下，去import xxx中的a.py跟xyz中的a.py
 
-[zzz/b.py](zzz/b.py)
+[zzz/b.py](../src/import/zzz/b.py)
 
 ~~~python
 import os
