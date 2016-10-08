@@ -23,9 +23,8 @@ Markdown 至少平时上班写文档在用，虽然不用什么高级的功能�
 * docker
 
 ## [Python 相关的东西] (python/README.md)
-* [import](python/docs/IMPORT.md) 
-* tcp epoll
-* udp epoll
+* [import](python/docs/IMPORT.md) 如何用python的import
+* [epoll](python/docs/EPOLL.md) 如何用 select 中的 epoll
 * python and c
 * unittest
 * nosetest
