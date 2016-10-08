@@ -19,7 +19,6 @@ Markdown 至少平时上班写文档在用，虽然不用什么高级的功能�
 * vim 使用介绍 : [如何使用vim] (vim/docs/VIM_INFO.md)
 
 ## [Linux 相关的东西] (linux/README.md)
-* kvm
 * linux 不常用指令
 * docker
 
