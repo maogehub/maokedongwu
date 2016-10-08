@@ -23,9 +23,9 @@ Markdown 至少平时上班写文档在用，虽然不用什么高级的功能�
 * docker
 
 ## [Python 相关的东西] (python/README.md)
-* [import](python/docs/IMPORT.md) 如何用python的import
-* [epoll](python/docs/EPOLL.md) 如何用 select 中的 epoll
-* python and c
+* [如何用python的import](python/docs/IMPORT.md) 
+* [如何用 select.epoll](python/docs/EPOLL.md) 
+* [python调用 c 语言库](python/docs/PYTHON_C.md)
 * unittest
 * nosetest
 * queue
