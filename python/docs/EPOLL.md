@@ -1,6 +1,6 @@
 # EPOLL
 
-python 官方文档的 select 模组中，有介绍到 epoll 
+python [官方文档的](https://docs.python.org/2/library/select.html) select 模组中，有介绍到 epoll 
 
 但是似乎没有给任何 epoll 的例子
 
