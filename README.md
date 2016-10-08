@@ -27,7 +27,7 @@ Markdown 至少平时上班写文档在用，虽然不用什么高级的功能�
 * [如何用 select.epoll](python/docs/EPOLL.md) 
 * [python 调用 c 语言库](python/docs/PYTHON_C.md)
 * [unittest 简介](python/docs/UNITTEST.md)
-* nosetest
+* [nosetest 简介](python/docs/NOSETESTS.md)
 * queue
 * regex
 * threading
