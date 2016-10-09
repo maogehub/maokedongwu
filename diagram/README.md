@@ -1,7 +1,5 @@
 # Diagram
 
-## Design Diagram
-
-## Squence Diagram
-
-## Brianstorm Storam Diagram
+* Design Diagram
+* Squence Diagram
+* Brianstorm Storam Diagram
