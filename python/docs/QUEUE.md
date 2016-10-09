@@ -129,3 +129,32 @@ print 'Done'
 ~~~
 
 上面的例子演示了使用queue.empty(), queue.full()以及blocking跟non-blocking的put与get
+
+运行结果如下（注意在blocking跟non-blocking中时间的区别）
+
+~~~bash
+create queue max size: 10
+try put 10 items
+qsize: 10
+queue empty: False
+queue full: True
+
+put one more item, timeout=1 [1476035766.74]
+on exception Queue.Full [1476035767.75]
+
+put one more item, non blocking [1476035767.75]
+on exception Queue.Full [1476035767.75]
+
+try get 10 items from queue
+qsize: 0
+queue empty: True
+queue full: False
+
+get one more, timeout=1 [1476035767.75]
+on execption Queue.Empty [1476035768.75]
+
+get one more, non blocking [1476035768.75]
+on execption Queue.Empty [1476035768.75]
+
+Done
+~~~
