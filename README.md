@@ -1,9 +1,10 @@
 # 猫科动物@猫哥-hub
 
-### 改头换面
-决定定居github了
+### 再次搬家，希望是最后一次
 
-方便我随手写点东西，可以在本本写东西，开心的时候就push上去。有版本控制，不会轻易被封号。workflow也比较熟悉
+这次挑GitHub定居了
+
+方便我随手写点东西，任何地方都可以在本本写，开心的时候就push上去。有版本控制，不会轻易被封号。workflow也比较熟悉。还能有个手机的client，编辑，更改居然连Markdown的效果都能看。如果你是iOS用户，那么推荐一下 [Working Copy](https://workingcopyapp.com/) 这款git客户端，绝对值得拥有。
 
 ### Markdown
 猫哥一向非常的不擅长写HTML。HTML对我来说，基本就只用下面两个
@@ -11,7 +12,8 @@
 	<image src="picture.jpg">
 	<pre></pre>
 
-Markdown 至少平时上班写文档在用，虽然不用什么高级的功能，不过觉得[vim](vim/README.md)下使用也算方便。[MacDown] (http://macdown.uranusjr.com/) 可以直接出效果。随手写点东西，足够了。
+Markdown 至少平时上班写文档在用 （工作中的wiki都是Markdown
+)，虽然不用什么高级的功能，不过觉得[vim](vim/README.md)下使用也算方便。[MacDown] (http://macdown.uranusjr.com/) 可以直接出效果。随手写点东西，足够了。
 
 
 ## [VIM 相关的东西] (vim/README.md)
