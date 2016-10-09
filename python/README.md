@@ -6,3 +6,4 @@
 * [nosetest 简介](docs/NOSETESTS.md)
 * [queue 简介](docs/QUEUE.md)
 * [decorator 简介](docs/DECORATOR.md)
+* [Regular Expression 正表达](docs/REGEX.md)
