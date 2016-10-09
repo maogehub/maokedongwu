@@ -19,7 +19,7 @@ Markdown 至少平时上班写文档在用，虽然不用什么高级的功能�
 * vim 使用介绍 : [如何使用vim] (vim/docs/VIM_INFO.md)
 
 ## [Linux 相关的东西] (linux/README.md)
-* Redhat vs Centos
+* [Redhat vs Centos](linux/docs/RHEL_VS_CENTOS.md)
 * yum vs rpm
 * linux 不常用指令
 * docker
@@ -30,7 +30,7 @@ Markdown 至少平时上班写文档在用，虽然不用什么高级的功能�
 * [python 调用 c 语言库](python/docs/PYTHON_C.md)
 * [unittest 简介](python/docs/UNITTEST.md)
 * [nosetest 简介](python/docs/NOSETESTS.md)
-* queue
+* [queue 简介](python/docs/QUEUE.md)
 * regex
 * threading
 * multi-processing
@@ -43,4 +43,7 @@ Markdown 至少平时上班写文档在用，虽然不用什么高级的功能�
 * freemind 
 
 ## [关于猫哥] (docs/aboutMe.md)
+
+
+
 

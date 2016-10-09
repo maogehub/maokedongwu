@@ -4,3 +4,4 @@
 * [python 调用 c 语言库](docs/PYTHON_C.md)
 * [unittest 简介](docs/UNITTEST.md)
 * [nosetest 简介](docs/NOSETESTS.md)
+* [queue 简介](docs/QUEUE.md)
