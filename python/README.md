@@ -5,3 +5,4 @@
 * [unittest 简介](docs/UNITTEST.md)
 * [nosetest 简介](docs/NOSETESTS.md)
 * [queue 简介](docs/QUEUE.md)
+* [decorator 简介](docs/DECORATOR.md)
