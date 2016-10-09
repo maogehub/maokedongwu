@@ -15,8 +15,8 @@ Markdown 至少平时上班写文档在用，虽然不用什么高级的功能�
 
 
 ## [VIM 相关的东西] (vim/README.md)
-* vim 设定 ：[vimrc 跟 Plugin](vim/docs/VIMRC.md)
-* vim 使用介绍 : [如何使用vim] (vim/docs/VIM_INFO.md)
+* [vimrc 跟 Plugin 设定](vim/docs/VIMRC.md)
+* [如何使用 vim] (vim/docs/VIM_INFO.md)
 
 ## [Linux 相关的东西] (linux/README.md)
 * [Redhat vs Centos](linux/docs/RHEL_VS_CENTOS.md)
