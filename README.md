@@ -31,6 +31,7 @@ Markdown 至少平时上班写文档在用，虽然不用什么高级的功能�
 * [unittest 简介](python/docs/UNITTEST.md)
 * [nosetest 简介](python/docs/NOSETESTS.md)
 * [queue 简介](python/docs/QUEUE.md)
+* [decorator 简介](python/docs/DECORATOR.md)
 * regex
 * threading
 * multi-processing
