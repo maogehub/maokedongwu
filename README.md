@@ -35,6 +35,7 @@ Markdown 至少平时上班写文档在用 （工作中的wiki都是Markdown
 * [queue 简介](python/docs/QUEUE.md)
 * [decorator 简介](python/docs/DECORATOR.md)
 * [Regular Expression 正表达](python/docs/REGEX.md)
+* [Python IDE] (python/docs/IDE.md)
 * threading
 * multi-processing
 * cython
