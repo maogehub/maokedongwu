@@ -32,7 +32,7 @@ Markdown 至少平时上班写文档在用，虽然不用什么高级的功能�
 * [nosetest 简介](python/docs/NOSETESTS.md)
 * [queue 简介](python/docs/QUEUE.md)
 * [decorator 简介](python/docs/DECORATOR.md)
-* regex
+* [Regular Expression 正表达](python/docs/REGEX.md)
 * threading
 * multi-processing
 * cython
