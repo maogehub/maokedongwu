@@ -11,3 +11,4 @@
 * [multi-threading 多线程](docs/MULTI_THREAD.md)
 * [multi-processing 多进程](docs/MULTI_PROCESSING.md)
 * [pypy 介绍](docs/PYPY.md)
+* [cython 介绍](docs/CYTHON.md)
