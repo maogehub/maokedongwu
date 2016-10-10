@@ -39,7 +39,7 @@ Markdown 至少平时上班写文档在用 （工作中的wiki都是Markdown
 * [multi-threading 多线程](python/docs/MULTI_THREAD.md)
 * [multi-processing 多进程](python/docs/MULTI_PROCESSING.md)
 * cython
-* pypy
+* [pypy 介绍](python/docs/PYPY.md)
 
 ## [Diagram 相关的东西] (diagram/README.md)
 * design diagram
