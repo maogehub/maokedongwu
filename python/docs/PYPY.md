@@ -10,34 +10,35 @@ pypy内建有stackless的支持。可以跑micro-thread （python中有stackless
 
 国外出名的dropbox，就是用python做的，用的就是pypy
 
-这里给一个很简单的测试例子
+这里给一个很简单的测试例子，用斐波那契数列
 
 [speed_test.py](../src/pypy/speed_test.py)
 
 ~~~python
-import random
-data=[random.randint(1,100) for x in range(1000000)]
-data.sort()
+def fib(n):
+    a,b = 1,1
+    for i in range(n-1):
+        a,b = b,a+b
+    return a
+fib(500000)
 ~~~
 
-很简单，做一个list，random一堆东西，然后sort（）排序
-
-python 运行结果，耗时2.8秒
+python 运行结果，耗时5.5秒
 
 ~~~bash
-time python speed_test.py 
+time python speed_test.py
 
-real	0m2.827s
-user	0m2.613s
-sys	0m0.085s
+real	0m5.558s
+user	0m5.051s
+sys	0m0.082s
 ~~~
 
-pypy 运行结果，耗时0.6秒
+pypy 运行结果，耗时3.3秒
 
 ~~~bash
-time pypy speed_test.py 
+time pypy speed_test.py
 
-real	0m0.637s
-user	0m0.225s
-sys	0m0.071s
+real	0m3.336s
+user	0m2.768s
+sys	0m0.132s
 ~~~

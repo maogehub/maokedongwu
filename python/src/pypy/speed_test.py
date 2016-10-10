@@ -1,3 +1,6 @@
-import random
-data=[random.randint(1,100) for x in range(1000000)]
-data.sort()
+def fib(n):
+    a,b = 1,1
+    for i in range(n-1):
+        a,b = b,a+b
+    return a
+fib(500000)
