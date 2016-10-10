@@ -37,7 +37,7 @@ Markdown 至少平时上班写文档在用 （工作中的wiki都是Markdown
 * [Regular Expression 正表达](python/docs/REGEX.md)
 * [Python IDE] (python/docs/IDE.md)
 * [multi-threading 多线程](python/docs/MULTI_THREAD.md)
-* multi-processing
+* [multi-processing 多进程](python/docs/MULTI_PROCESSING.md)
 * cython
 * pypy
 
