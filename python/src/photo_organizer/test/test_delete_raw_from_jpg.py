@@ -39,7 +39,7 @@ class DeleteRawFromJPG(unittest.TestCase):
             m = re.match(r'3\.raw-uuid-[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4,}-[0-9a-f]{12}', f)
             if m:
                 break
-        self.assertTrue(m)
+        self.assertTrue(m, 'duplicate file are renamed with filename-uuid-UUID.UUID4')
 
     def test_keep(self):
         """check if files exist in jpg, we still have it in raw
