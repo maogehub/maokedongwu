@@ -1,7 +1,6 @@
 import unittest
 import os
-
-import storage
+from lib import storage
 
 class StorageEngine(unittest.TestCase):
     """test storage engin
@@ -27,7 +26,7 @@ class StorageEngine(unittest.TestCase):
         self.assertTrue(self.storage.remove_key("test"), 'delete record by name')
         self.assertFalse( self.storage.has_key('test', 'me'), 'insert after delete by name')
         self.assertEquals( self.storage.remove_key(), None, 'delete record with None name and None data')
-        
+
     def test_fetch_key(self):
         """test fetch key by name, data and both or None
         """

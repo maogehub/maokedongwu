@@ -1,6 +1,6 @@
 import unittest
 import os
-import checksum
+from lib import checksum
 
 class Md5Test(unittest.TestCase):
     """test md5 module

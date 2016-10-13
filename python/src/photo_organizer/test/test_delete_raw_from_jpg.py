@@ -1,7 +1,7 @@
-import delete_raw_from_jpg
 import os
 import unittest
 import re
+from lib import delete_raw_from_jpg
 
 class DeleteRawFromJPG(unittest.TestCase):
     def setUp(self):

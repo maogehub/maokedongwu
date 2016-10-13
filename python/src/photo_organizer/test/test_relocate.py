@@ -1,8 +1,8 @@
 import unittest
 import os
-import relocate
 import re
 import shutil
+from lib import relocate
 
 class RelocateTest(unittest.TestCase):
     def setUp(self):
@@ -11,9 +11,9 @@ class RelocateTest(unittest.TestCase):
         self.time = {
             'epoch': '1476325378.0',
             'path': '2016/10/13'}
-        
+
     def test_relocate(self):
-        
+
         open(self.filename, 'w').write('')
         test = (self.filename, self.time['epoch'])
         self.assertEqual(relocate.move(test, self.path), None, 'move file to target')
@@ -25,9 +25,9 @@ class RelocateTest(unittest.TestCase):
             if m:
                 break
         self.assertTrue(m, 'verify duplicated file in target as uuid-UUID.UUID4-filename')
-        
+
     def tearDown(self):
         if os.path.isfile(self.filename):
-            os.remove(self.filename)            
-        if os.path.isdir(self.path):        
+            os.remove(self.filename)
+        if os.path.isdir(self.path):
             shutil.rmtree(self.path)
