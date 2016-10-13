@@ -17,7 +17,7 @@ class Exif(unittest.TestCase):
             'Model': 'Test 1',
             'SamplesPerPixel': 162}
         #pycharm running test is different than running nosetests from shell, hack the path
-        filename = os.path.join(os.path.dirname(__file__), 'exif.jpg')
+        filename = os.path.join(os.path.dirname(__file__), 'data/exif.jpg')
         self.assertEqual(exif.get(filename), sample, 'exif read test')        
         self.assertEqual(exif.get('do_not_exist'), {}, 'exif read without os.R_OK')
         

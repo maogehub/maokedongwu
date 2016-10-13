@@ -1,4 +1,5 @@
 import unittest
+import os
 import blackwhite
 
 class BlackWhite(unittest.TestCase):
@@ -6,4 +7,8 @@ class BlackWhite(unittest.TestCase):
     """    
     
     def test_blackwhite(self):
-        self.assertTrue(blackwhite.isblack('xxx.jpg'), 'photo is black')
+        color = os.path.join(os.path.dirname(__file__), 'data/exif.jpg')
+        black = os.path.join(os.path.dirname(__file__), 'data/blackwhite.jpg')
+        
+        self.assertTrue(blackwhite.isblack(black), 'photo is black')
+        self.assertFalse(blackwhite.isblack(color), 'photo is black')
