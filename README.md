@@ -43,8 +43,8 @@ Markdown 至少平时上班写文档在用 （工作中的wiki都是Markdown
 
 
 ## [Diagram 相关的东西] (diagram/README.md)
-* design diagram
-* sequence diagram
+* [Design Diagram 设计视图] (diagram/docs/DESIGN.md)
+* [Squence Diagram 时序图] (diagram/docs/SEQUENCE.md)
 * freemind 
 
 ## [关于猫哥] (docs/aboutMe.md)
