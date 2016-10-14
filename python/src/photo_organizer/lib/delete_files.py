@@ -7,7 +7,14 @@ import os
 import shutil
 import uuid
 
-
+def move_file(filename, target = '.delete'):
+    newname = os.path.basename(filename)
+    if os.path.isfile(os.path.join(target, os.path.basename(filename))):
+        newname = 'uuid-%s-%s' % (uuid.uuid4(), os.path.basename(filename))
+    if not os.path.isdir(target):
+        os.makedirs(target)
+    shutil.move(filename, os.path.join(target, newname))
+        
 def delete_raw_from_jpg(jpg, raw, delete_dir='.delete'):
     jpg_files = [x.split('.')[0] for x in os.listdir(jpg)]
     raw_files = os.listdir(raw)
@@ -17,9 +24,4 @@ def delete_raw_from_jpg(jpg, raw, delete_dir='.delete'):
         if x.split('.')[0] not in jpg_files:
             x = os.path.join(raw, x)
             if os.path.isfile(x):
-                basename = os.path.basename(x)
-                if not os.path.isfile(os.path.join(delete_dir, basename)):
-                    shutil.move(x, delete_dir)
-                else:
-                    unique = uuid.uuid4()
-                    shutil.move(x, os.path.join(delete_dir, '%s-uuid-%s' % (basename, unique)))
+                move_file(x, delete_dir)

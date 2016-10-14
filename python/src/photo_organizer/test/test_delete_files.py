@@ -1,7 +1,7 @@
 import os
 import unittest
 import re
-from lib import delete_raw_from_jpg
+from lib import delete_files
 
 class DeleteRawFromJPG(unittest.TestCase):
     def setUp(self):
@@ -25,7 +25,7 @@ class DeleteRawFromJPG(unittest.TestCase):
     def test_delete(self):
         """check if we have raw but not jpg, then raw file deleted
         """
-        delete_raw_from_jpg.delete_raw_from_jpg(self.data['jpg']['path'], self.data['raw']['path'], self.target)
+        delete_files.delete_raw_from_jpg(self.data['jpg']['path'], self.data['raw']['path'], self.target)
         self.assertFalse(os.path.isfile(os.path.join(self.data['raw']['path'], '3.raw')))
 
     def test_unique(self):
@@ -34,9 +34,9 @@ class DeleteRawFromJPG(unittest.TestCase):
         if not os.path.isdir(self.target):
             os.mkdir(self.target)
         open(os.path.join(self.target, '3.raw'), 'w').write('')
-        delete_raw_from_jpg.delete_raw_from_jpg(self.data['jpg']['path'], self.data['raw']['path'], self.target)
+        delete_files.delete_raw_from_jpg(self.data['jpg']['path'], self.data['raw']['path'], self.target)
         for f in os.listdir(self.target):
-            m = re.match(r'3\.raw-uuid-[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4,}-[0-9a-f]{12}', f)
+            m = re.match(r'uuid-[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4,}-[0-9a-f]{12}-3\.raw', f)
             if m:
                 break
         self.assertTrue(m, 'duplicate file are renamed with filename-uuid-UUID.UUID4')
@@ -44,7 +44,7 @@ class DeleteRawFromJPG(unittest.TestCase):
     def test_keep(self):
         """check if files exist in jpg, we still have it in raw
         """
-        delete_raw_from_jpg.delete_raw_from_jpg(self.data['jpg']['path'], self.data['raw']['path'], self.target)
+        delete_files.delete_raw_from_jpg(self.data['jpg']['path'], self.data['raw']['path'], self.target)
         self.assertTrue(os.path.isfile(os.path.join(self.data['raw']['path'], '2.raw')))
 
 

@@ -12,6 +12,7 @@ import fractions
 import datetime
 import time
 import os
+import json
 
 def get(filename):
     tags = {} 
@@ -24,7 +25,7 @@ def get(filename):
         value = None
         tag = metadata[key]
         try:
-            if not isinstance(tag.value, (int, str, long, unicode, fractions.Fraction, datetime.datetime)): continue
+            if not isinstance(tag.value, (int, str, long, fractions.Fraction, datetime.datetime)): continue
             
             if isinstance(tag.value, fractions.Fraction):
                 value = float(tag.value)
@@ -35,7 +36,12 @@ def get(filename):
             else:
                 value = tag.value
             if tag.name:
-                tags.setdefault(tag.name, value)
+                #make sure we can dump into json, so we can use it in db
+                try:
+                    json.dumps({tag.name: value,})
+                    tags.setdefault(tag.name, value)
+                except:
+                    pass
         except:
             pass
     
