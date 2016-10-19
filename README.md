@@ -24,7 +24,8 @@ Markdown 至少平时上班写文档在用 （工作中的wiki都是Markdown
 * [Redhat vs Centos](linux/docs/RHEL_VS_CENTOS.md)
 * yum vs rpm
 * linux 不常用指令
-* docker
+* [运行 Docker](linux/docs/DOCKER_RUN.md)
+
 
 ## [Python 相关的东西] (python/README.md)
 * [如何用 python 的 import](python/docs/IMPORT.md) 
