@@ -13,3 +13,4 @@
 * [pypy 介绍](docs/PYPY.md)
 * [cython 介绍](docs/CYTHON.md)
 * [Virtualenv 介绍](docs/VIRTUALENV.md)
+* [猫哥的照片管理实例](src/photo_organizer/README.md)

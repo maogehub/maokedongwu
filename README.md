@@ -41,6 +41,7 @@ Markdown 至少平时上班写文档在用 （工作中的wiki都是Markdown
 * [pypy 介绍](python/docs/PYPY.md)
 * [cython 介绍](python/docs/CYTHON.md)
 * [Virtualenv 介绍](python/docs/VIRTUALENV.md)
+* [猫哥的照片管理实例](python/src/photo_organizer/README.md)
 
 
 
