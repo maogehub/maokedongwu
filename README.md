@@ -40,6 +40,8 @@ Markdown 至少平时上班写文档在用 （工作中的wiki都是Markdown
 * [multi-processing 多进程](python/docs/MULTI_PROCESSING.md)
 * [pypy 介绍](python/docs/PYPY.md)
 * [cython 介绍](python/docs/CYTHON.md)
+* [Virtualenv 介绍](python/docs/VIRTUALENV.md)
+
 
 
 ## [Diagram 相关的东西] (diagram/README.md)
