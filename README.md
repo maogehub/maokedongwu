@@ -23,7 +23,7 @@ Markdown 至少平时上班写文档在用 （工作中的wiki都是Markdown
 ## [Linux 相关的东西] (linux/README.md)
 * [Redhat vs Centos](linux/docs/RHEL_VS_CENTOS.md)
 * yum vs rpm
-* linux 不常用指令
+* [不常用指令] (linux/docs/COMMANDS.md)
 * [运行 Docker](linux/docs/DOCKER_RUN.md)
 
 
