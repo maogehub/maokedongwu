@@ -43,7 +43,7 @@ Markdown 至少平时上班写文档在用 （工作中的wiki都是Markdown
 * [cython 介绍](python/docs/CYTHON.md)
 * [Virtualenv 介绍](python/docs/VIRTUALENV.md)
 * [猫哥的照片管理实例](python/src/photo_organizer/README.md)
-
+* [MATPLOTLIB - 画图](python/docs/MATPLOTLIB.md)
 
 
 ## [Diagram 相关的东西] (diagram/README.md)
