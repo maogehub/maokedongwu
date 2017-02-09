@@ -19,4 +19,6 @@
 * [Virtualenv 介绍](docs/VIRTUALENV.md)
 * [猫哥的照片管理实例](src/photo_organizer/README.md)
 * [MATPLOTLIB - 画图](docs/MATPLOTLIB.md)
+* [Jupyter Notebook (Ipython Notebook)](docs/NOTEBOOK.md)
+
 
