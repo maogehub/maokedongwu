@@ -16,18 +16,18 @@ Markdown 至少平时上班写文档在用 （工作中的wiki都是Markdown
 )，虽然不用什么高级的功能，不过觉得[vim](vim/README.md)下使用也算方便。[MacDown] (http://macdown.uranusjr.com/) 可以直接出效果。随手写点东西，足够了。
 
 
-## [VIM 相关的东西] (vim/README.md)
+## [VIM 相关的东西](vim/README.md)
 * [vimrc 跟 Plugin 设定](vim/docs/VIMRC.md)
-* [如何使用 vim] (vim/docs/VIM_INFO.md)
+* [如何使用 vim](vim/docs/VIM_INFO.md)
 
-## [Linux 相关的东西] (linux/README.md)
+## [Linux 相关的东西](linux/README.md)
 * [Redhat vs Centos](linux/docs/RHEL_VS_CENTOS.md)
 * [Yun vs RPM](linux/docs/YUM_VS_RPM.md)
-* [不常用指令] (linux/docs/COMMANDS.md)
+* [不常用指令](linux/docs/COMMANDS.md)
 * [运行 Docker](linux/docs/DOCKER_RUN.md)
 
 
-## [Python 相关的东西] (python/README.md)
+## [Python 相关的东西](python/README.md)
 * [如何用 python 的 import](python/docs/IMPORT.md) 
 * [如何用 select.epoll](python/docs/EPOLL.md) 
 * [python 调用 c 语言库](python/docs/PYTHON_C.md)
@@ -36,7 +36,7 @@ Markdown 至少平时上班写文档在用 （工作中的wiki都是Markdown
 * [queue 简介](python/docs/QUEUE.md)
 * [decorator 简介](python/docs/DECORATOR.md)
 * [Regular Expression 正表达](python/docs/REGEX.md)
-* [Python IDE] (python/docs/IDE.md)
+* [Python IDE](python/docs/IDE.md)
 * [multi-threading 多线程](python/docs/MULTI_THREAD.md)
 * [multi-processing 多进程](python/docs/MULTI_PROCESSING.md)
 * [pypy 介绍](python/docs/PYPY.md)
@@ -47,10 +47,10 @@ Markdown 至少平时上班写文档在用 （工作中的wiki都是Markdown
 * [Jupyter Notebook (Ipython Notebook)](python/docs/NOTEBOOK.md)
 
 
-## [Diagram 相关的东西] (diagram/README.md)
-* [Design Diagram 设计视图] (diagram/docs/DESIGN.md)
-* [Squence Diagram 时序图] (diagram/docs/SEQUENCE.md)
+## [Diagram 相关的东西](diagram/README.md)
+* [Design Diagram 设计视图](diagram/docs/DESIGN.md)
+* [Squence Diagram 时序图](diagram/docs/SEQUENCE.md)
 * freemind 
 
-## [关于猫哥] (docs/aboutMe.md)
+## [关于猫哥](docs/aboutMe.md)
 
