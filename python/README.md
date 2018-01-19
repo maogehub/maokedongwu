@@ -1,7 +1,8 @@
 # Python 相关的东西
+
 所有代码，如果没有特别声明。那么都是在OSX的环境中，python 2.7.13下面完成
 
-所有python3代码，如果没有特殊声明，那么都是在OSX的环境中 python 3.4.5下面完成
+所有python3代码，如果没有特殊声明，那么都是在OSX的环境中 python 3.6.4下面完成
 
 * [如何用 python 的 import](docs/IMPORT.md) 
 * [如何用 select.epoll](docs/EPOLL.md)
